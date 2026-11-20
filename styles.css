@@ -62,7 +62,7 @@ a { color: var(--black); }
 }
 
 .hero {
-  padding: 72px 0 56px;
+  padding: 72px 0 16px;
   border-bottom: 1px solid var(--black);
 }
 
@@ -168,6 +168,10 @@ section {
   background: var(--white);
 }
 
+.benefit {
+  border: 1px solid var(--black);
+}
+
 .stack-step .num {
   display: block;
   margin-bottom: 8px;
@@ -203,10 +207,8 @@ section {
 
 .benefit-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0;
-  border-top: 1px solid var(--black);
-  border-left: 1px solid var(--black);
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 20px;
 }
 
 .benefit p {
